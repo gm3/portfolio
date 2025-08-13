@@ -6,6 +6,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/portfolio/',
   // assetsInclude: ['**/*.glb'], // removed lanyard/vrm assets for now
+  build: { outDir: 'docs' },
   plugins: [react()],
 })
 
