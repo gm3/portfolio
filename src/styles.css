@@ -18,7 +18,7 @@ body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI
 }
 .brand { font-weight: 600; letter-spacing: 0.5px; }
 .nav { display: flex; gap: 12px; }
-.nav a, .nav button { color: var(--ink); text-decoration: none; background: none; border: none; cursor: pointer; padding: 6px 10px; border: 1px solid var(--ink); }
+.nav a, .nav button { color: var(--ink); text-decoration: none; background: none; border: 1px solid var(--ink); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; height: 32px; line-height: 1; padding: 0 12px; }
 .nav a:hover, .nav button:hover { background: var(--ink); color: var(--bg); }
 .menu-toggle { display: none; background: none; border: 1px solid var(--ink); padding: 6px 10px; cursor: pointer; }
 
@@ -55,9 +55,9 @@ body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI
 
 /* Icon buttons */
 .icon-row { display: flex; gap: 8px; margin: 6px 0 8px; }
-.icon-btn { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 32px; border: 1px solid var(--ink); background: none; color: var(--ink); text-decoration: none; }
+.icon-btn { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border: 1px solid var(--ink); background: none; color: var(--ink); text-decoration: none; vertical-align: middle; }
 .icon-btn:hover { background: var(--ink); color: var(--bg); }
-.icon-btn svg { width: 18px; height: 18px; fill: currentColor; }
+.icon-btn svg { width: 20px; height: 20px; fill: currentColor; }
 
 canvas { outline: 1px solid var(--ink); }
 .clients { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; }
