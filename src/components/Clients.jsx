@@ -18,7 +18,7 @@ const clients = [
   { name: 'CBS' },
   { name: 'FOX' },
   { name: 'Discovery' },
-  { name: 'Disney Channel' },
+  
   { name: 'Nickelodeon' },
   { name: 'Comedy Central' },
   { name: 'Adult Swim' },
@@ -30,7 +30,7 @@ const clients = [
   { name: 'History' },
   // removed by request
   { name: 'PBS' },
-  { name: 'Paramount' },
+  
   { name: 'And Many More' },
 ]
 
