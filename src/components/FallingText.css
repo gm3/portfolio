@@ -1,0 +1,29 @@
+.falling-text-container {
+  width: 100%;
+  height: 340px;
+  border: 1px solid var(--ink);
+  position: relative;
+  background: var(--bg);
+}
+.falling-text-target {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  color: var(--ink);
+  user-select: none;
+}
+.falling-text-target .word {
+  display: inline-block;
+  position: relative;
+  transform: translate(-50%, -50%);
+}
+.falling-text-canvas {
+  position: absolute;
+  inset: 0;
+}
+.highlighted {
+  background: #fffb8a;
+  box-shadow: inset 0 -8px 0 #fffb8a;
+}
+

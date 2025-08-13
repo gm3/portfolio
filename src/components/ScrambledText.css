@@ -1,0 +1,21 @@
+.text-block {
+  border: 1px dashed var(--ink);
+  padding: 16px;
+  width: 100%;
+}
+.text-block p {
+  margin: 0;
+  font-size: clamp(1rem, 2.2vw, 1.3rem);
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.text-block p::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+.text-block .char {
+  will-change: contents, transform;
+}
+
