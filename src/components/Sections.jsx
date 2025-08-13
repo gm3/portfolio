@@ -40,7 +40,7 @@ export default function Sections() {
           JavaScript · TypeScript · React · Three.js · r3f · Unity · Unreal Engine · Web Design · UX · UI · Web3 · Video Game Dev · Virtual Production · OBS · Audio Engineering · Pro Tools · Ableton Live · C# / C-Sharp · Cursor
         </ScrambledText>
       </Section>
-      <Section id="clients" title={"Who I've Worked With"}>
+      <Section id="clients" title={"Clients / Creds"}>
         <Clients />
       </Section>
       <Section id="contact" title="Contact" className="contact">

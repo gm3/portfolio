@@ -19,6 +19,8 @@ body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI
 .brand { font-weight: 600; letter-spacing: 0.5px; }
 .nav { display: flex; gap: 12px; }
 .nav a, .nav button { color: var(--ink); text-decoration: none; background: none; border: 1px solid var(--ink); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; height: 32px; line-height: 1; padding: 0 12px; }
+.nav .nav-icon { border: none; width: 36px; }
+.nav .nav-icon svg { width: 22px; height: 22px; }
 .nav a:hover, .nav button:hover { background: var(--ink); color: var(--bg); }
 .menu-toggle { display: none; background: none; border: 1px solid var(--ink); padding: 6px 10px; cursor: pointer; }
 
