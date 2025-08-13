@@ -9,20 +9,7 @@ import useUIStore from './store/useUIStore.js'
 
 export default function App() {
   const { projectsOpen } = useUIStore()
-  const [pages, setPages] = React.useState(6)
-
-  React.useLayoutEffect(() => {
-    const calcPages = () => {
-      const sections = Array.from(document.querySelectorAll('.section'))
-      const total = sections.reduce((sum, el) => sum + Math.max(el.offsetHeight || 0, window.innerHeight), 0)
-      const p = Math.max(1, Math.ceil(total / window.innerHeight))
-      setPages(p)
-    }
-    // Delay until first paint of html overlay
-    requestAnimationFrame(calcPages)
-    window.addEventListener('resize', calcPages)
-    return () => window.removeEventListener('resize', calcPages)
-  }, [])
+  const pages = 6
   return (
     <div className="app">
       <Header />
